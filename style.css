@@ -1,0 +1,96 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(https://img.freepik.com/free-photo/top-view-roasted-coffee-beans-scattered-brown-paper-texture-background-with-copy-space_141793-7136.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 30px;
+    
+}
+.logo img{
+    padding-left: 40px;
+    width: 136px;
+}
+.logo div{
+    padding: 10px;
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+    color:rgb(83, 60, 27) ;
+    font-weight: 900;
+}
+.navbar{
+    position: absolute;
+    left: 30%;
+    top: 60px;
+/* display: inline-block;
+width: 36%; */
+margin: auto;
+border: 2px solid burlywood;
+background-color: rgb(161, 122, 84);
+border-radius: 40px;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 65px;
+    display: inline-block;
+    
+}
+.bg{
+    width: 100vh;
+    height: 100vh;
+}
+
+.navigation{
+    display: inline-block;
+}
+.navigation li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navigation li a{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    padding: 0px 20px;
+    font-size: 20px;
+    margin: 0px 0px;
+}
+.navigation li a:hover, .navigation li a.active{
+    text-decoration: underline;
+    color: rgb(255, 202, 128);
+}
+.btn{
+    margin: 14px 3px;
+    background-color: rgb(161, 122, 84);
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 90px;
+    font-size: 20px;
+    cursor: pointer;    
+}
+.btn:hover{
+    background-color: #5a5555;
+}
+.container{
+    margin: 50vh 80px;
+    color:rgb(111, 78, 55);
+    font-size: xx-large;
+}
+.container img{
+    position: absolute;
+    right: 40px;
+    top: 200px;
+}
